@@ -9,12 +9,13 @@ $(function() {
 		$('#contact').addClass('active');
 		break;
 
-	case 'View Products':
-		$('#listproducts').addClass('active');
+	case 'All Products':
+		$('#listProducts').addClass('active');
 		break;
 
 	default:
-		$('#home').addClass('active');
+		$('#listProducts').addClass('active');
+		$('#a_' + menu).addClass('active');
 		break;
 	}
 });
